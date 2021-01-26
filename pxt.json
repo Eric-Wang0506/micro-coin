@@ -1,0 +1,25 @@
+{
+    "name": "micro-coin",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "radio-blockchain": "github:Microsoft/pxt-radio-blockchain#v0.1.4"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
